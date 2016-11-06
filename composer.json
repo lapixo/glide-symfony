@@ -10,8 +10,14 @@
             "homepage": "http://reinink.ca"
         }
     ],
+    "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/lapixo/glide"
+    }
+    ],
     "require": {
-        "lapixo/glide": "^1.0",
+        "lapixo/glide": "dev-master",
         "symfony/http-foundation": "^2.3|^3.0"
     },
     "require-dev": {
